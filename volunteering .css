@@ -3,9 +3,11 @@
     width: 98%;
     height: 650px;
     padding: 8px;
-    border-radius: darkgray;
+    border-radius: 8px;
     border: 2px solid rgb(121, 78, 129) ;
-    color: darkgray border;
+    color: darkgray ;
+    background: rgb(121, 78, 129) ;
+
  
  }
  
@@ -15,7 +17,7 @@
      width: 600px;
      height: 650px;
      padding: 0 10px  0 0;
-     
+     border-radius: 8px;
  }
     
 
