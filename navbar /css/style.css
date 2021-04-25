@@ -4,32 +4,23 @@
   list-style: none;
   text-decoration: none;
 }
-body{
-  font-family:sans-serif;
-  overflow: hidden;
-  user-select: none;
-}
+
 .logo{
- padding: 5px 0 0 80px;
- width: 200px;
- height:150px;
+ padding: 5px 0 0 70px;
+ width: 210px;
+ height: 120px;
  float: left;
  margin-left: 30px;
- line-height: 80px;
- border-radius: 15px;
 }
 nav{
   height: 140px;
   background: #523c7e;
-  box-shadow: 0 3px 15px #fff ;
- 
 }
 nav ul{
-  float: right;
-  margin-right: 30px;
+  float:right;
 }
 nav ul li{
-  display: inline-block;
+  display:inline-block;
 }
 nav ul li a{
   color: white;
@@ -37,33 +28,26 @@ nav ul li a{
   padding: 0 15px;
   font-size:22px;
   background: #523c7e;
-  transition:.5s;
   line-height: 100px;
-  letter-spacing: 1px;
-  justify-content: space-around;
+  letter-spacing:2px;
 }
 nav ul li a:hover
 {
-  color: #fff;
+  color: #917eb9;
 }
 nav ul ul{
-  position: absolute;
-  top: 85px;
-  border-top: 3px solid #fff ;
+ position:fixed;
   opacity:0;
   visibility: hidden;
+  top: 85px;
 }
 nav ul li:hover > ul{
   top:60px;
-  opacity: 1;
+  opacity: 2;
   visibility: visible;
   transition: .3s;
 }
 nav ul ul li{
-  width: 130px;
+  border: 3px solid #917eb9;
   display: list-item;
-  position: relative;
-  border: 1px solid #fff ;
-  border-top: none;
 }
-
