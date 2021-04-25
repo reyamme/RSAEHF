@@ -5,8 +5,7 @@
     padding: 8px;
     border-radius: 8px;
     border: 2px solid rgb(121, 78, 129) ;
-    color: darkgray ;
-    background: rgb(121, 78, 129) ;
+    background: rgba(56, 15, 56, 0.973) ;
 
  
  }
@@ -26,5 +25,6 @@
  .text{
      text-align: justify;
      font-family: Verdana;
+     color: darkgray ;
     
  }
